@@ -1,7 +1,8 @@
 /* Logo */
 @use "../global" as *;
 .logo {
-	--logo-height: #{rem(32)};
+	--logo-height: #{rem(24)};
+	margin: 0.5rem;
 	height: var(--logo-height);
 	&__img {
 		max-width: 100%;

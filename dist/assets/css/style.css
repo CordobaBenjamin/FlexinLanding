@@ -2937,7 +2937,8 @@ small,
 }
 /* Logo */
 .logo {
-    --logo-height: 2rem;
+    --logo-height: 1.5rem;
+    margin: 0.5rem;
     height: var(--logo-height);
 }
 .logo__img {
@@ -8672,7 +8673,7 @@ small,
     --bs-light-bg-subtle: #495058;
     --bs-light-text-emphasis: #f8f9fa;
     --bs-dark-bg-subtle: #0d0e10;
-    --bs-dark-text-emphasis: #ced4da;
+    --bs-dark-text-emphasis: #ffffff;
     --bs-box-shadow: 0px 10px 20px -4px rgba(145, 158, 171, 0.16);
     --bs-box-shadow-sm: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --bs-box-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);

@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+  .pricing-cards-row .pricing-card-gap:not(:last-child) {
+    margin-right: 2rem;
+  }
+  .pricing-step-1 .gradient-border { margin-top: 0; }
+  .pricing-step-2 .gradient-border { margin-top: 2rem; }
+  .pricing-step-3 .gradient-border { margin-top: 4rem; }
+  .pricing-step-4 .gradient-border { margin-top: 6rem; }
+}
+
+.pricing-cards-row .gradient-border {
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.18), 0 1.5px 0 0 rgba(255,255,255,0.04) inset;
+  border: 1.5px solid rgba(255,255,255,0.08);
+  transition: box-shadow 0.2s;
+} 
